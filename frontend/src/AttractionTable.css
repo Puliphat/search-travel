@@ -1,0 +1,40 @@
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .search-input {
+    width: 260px;
+    min-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+ .attraction-image {
+    width: 100%;
+    max-width: 170px;
+    padding: 4px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .detail{
+     padding-right: 60px;
+  }
+  
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+
+    .attraction-image {
+      max-width: 100%;
+    }
+  }
